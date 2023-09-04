@@ -15,3 +15,8 @@
 .str-chat * {
   font-family: inherit !important;
 }
+
+/* this CSS fixes the UI glitch where the search bar was taking up more space after filtering search */
+.str-chat__channel-search.str-chat__channel-search--with-results.str-char__channel-search--inline {
+  height: fit-content;
+}
